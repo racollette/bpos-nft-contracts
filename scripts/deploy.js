@@ -1,12 +1,17 @@
 // import { formatEther, parseEther } from "viem";
 // import hre from "hardhat";
+require("dotenv/config");
 
 async function main() {
+  console.log(process.env.API_URL);
+  console.log(process.env.PRIVATE_KEY);
   // Grab the contract factory
   const MyNFT = await ethers.getContractFactory("MyNFT");
-  const signer = (await ethers.getSigners())[0]; // You can choose the signer you want to use
+  // const signer = (await ethers.getSigners())[0]; // You can choose the signer you want to use
 
-  const myNFT = await MyNFT.connect(signer).deploy();
+  // console.log(MyNFT);
+
+  const myNFT = await MyNFT.deploy({ gasPrice: 10000000000, gasLimit: 3000000 });
 
   console.log("Contract deployed to address:", myNFT.target);
 }
