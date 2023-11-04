@@ -1,0 +1,15 @@
+{
+  "name": "Bonded Proof of Stake",
+  "image": "https://gateway.pinata.cloud/ipfs/QmVM2yJYzp5eHr2fJLzWieueAWFLP5k9ZhZ81ZrgrwUzQ3",
+  "description": "Representing the Bonded Proof of Stake component of the celebratory Elastic Consensus NFT.",
+  "properties": {
+    "symbol": "BPoS",
+    "address": "0x52B337a04dD35bc66d49018C09Bc70A35bCf7272",
+    "royalty": "500",
+    "recipient": "0x52B337a04dD35bc66d49018C09Bc70A35bCf7272",
+    "createdAt": "15:42:22 GMT+0000 (Coordinated Universal Time)",
+    "collection": "Elacity Default Art Collection",
+    "account": "0x52B337a04dD35bc66d49018C09Bc70A35bCf7272",
+    "edition": ""
+  }
+}

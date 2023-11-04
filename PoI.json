@@ -1,0 +1,15 @@
+{
+  "name": "Proof of Integrity",
+  "image": "https://gateway.pinata.cloud/ipfs/QmWkW9RjrRnhiUNrmMvEzJNHceG6CvEapEW5GohZ5daztZ",
+  "description": "Representing the Proof of Integrity component of the celebratory Elastic Consensus NFT.",
+  "properties": {
+    "symbol": "PoI",
+    "address": "0x52B337a04dD35bc66d49018C09Bc70A35bCf7272",
+    "royalty": "500",
+    "recipient": "0x52B337a04dD35bc66d49018C09Bc70A35bCf7272",
+    "createdAt": "15:42:22 GMT+0000 (Coordinated Universal Time)",
+    "collection": "Elacity Default Art Collection",
+    "account": "0x52B337a04dD35bc66d49018C09Bc70A35bCf7272",
+    "edition": ""
+  }
+}

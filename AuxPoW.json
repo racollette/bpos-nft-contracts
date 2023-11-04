@@ -1,0 +1,15 @@
+{
+  "name": "Proof of Work",
+  "image": "https://gateway.pinata.cloud/ipfs/QmebWJUaNogKENLqLG8GuuyU2AM45PKyvzUHgAEJRsB7Hv",
+  "description": "Representing the Proof of Work component of the celebratory Elastic Consensus NFT.",
+  "properties": {
+    "symbol": "PoW",
+    "address": "0x52B337a04dD35bc66d49018C09Bc70A35bCf7272",
+    "royalty": "500",
+    "recipient": "0x52B337a04dD35bc66d49018C09Bc70A35bCf7272",
+    "createdAt": "15:42:22 GMT+0000 (Coordinated Universal Time)",
+    "collection": "Elacity Default Art Collection",
+    "account": "0x52B337a04dD35bc66d49018C09Bc70A35bCf7272",
+    "edition": ""
+  }
+}
