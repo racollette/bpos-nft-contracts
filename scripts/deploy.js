@@ -4,7 +4,7 @@ async function main() {
   console.log(process.env.API_URL);
   console.log(process.env.PRIVATE_KEY);
 
-  const ownerAddress = "0x3Ac3935326cCA3146365a39458b5905bCdAe476b"; // Replace with the owner's address
+  const ownerAddress = "0x52B337a04dD35bc66d49018C09Bc70A35bCf7272"; // Replace with the owner's address
   const paymentAddress = "0x52B337a04dD35bc66d49018C09Bc70A35bCf7272"; // Payment address
 
   const nft1 = await ethers.getContractFactory("Proof_of_Work");

@@ -25,7 +25,7 @@ contract Bonded_Proof_of_Stake is ERC721URIStorage, Ownable {
         string memory tokenURI
     ) public payable virtual returns (uint256) {
         require(totalMintedNFTs < maxMintableNFTs, "Max NFT limit reached");
-        require(msg.value >= 20000000000000000, "Not enough ELA sent!");
+        require(msg.value >= 20000000000000000000, "Not enough ELA sent!");
 
         // Send the payment to the specified payment address
         payable(paymentAddress).transfer(msg.value);
