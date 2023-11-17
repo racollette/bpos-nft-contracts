@@ -20,13 +20,9 @@ async function main() {
   // const NFT3 = await nft3.deploy(ownerAddress, paymentAddress, { gasPrice: 10000000000, gasLimit: 3000000 });
   // console.log("PoI Contract deployed to address:", NFT3.target);
 
-
-  const provider = new ethers.providers.JsonRpcProvider('https://rpc.glidefinance.io')
-  const mnemonicWallet = ethers.Wallet.fromMnemonic(mnemonic).connect(provider);
-
   const WELA_TOKEN = "0x517E9e5d46C1EA8aB6f78677d6114Ef47F71f6c4";
   const GLIDE_TOKEN = "0xd39eC832FF1CaaFAb2729c76dDeac967ABcA8F27";
-  const START_BLOCK = 21660000;
+  const START_BLOCK = 21686000;
   const ownerAddress = "0x52B337a04dD35bc66d49018C09Bc70A35bCf7272"; // Replace with the owner's address
 
   const powRewards = await ethers.getContractFactory("TokenRewards");
